@@ -1,5 +1,6 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Navbar from "./Navbar"
+import About from "./About"
 
 const Pagination = () => {
   return (
@@ -14,7 +15,7 @@ const Pagination = () => {
             <Navbar />
           </div>
           <div className="pt-10">
-            <TabsContent value="about">Make changes to your account here.</TabsContent>
+            <TabsContent value="about"><About /></TabsContent>
             <TabsContent value="rules">Change your password here.</TabsContent>
             <TabsContent value="interests">Change your password here.</TabsContent>
           </div>

@@ -8,16 +8,16 @@ const Navbar = () => {
       <div className='flex gap-3'>
         <div className='flex gap-1 ml-2'>
             <div className='flex justify-center bg-muted p-1 text-neutral-600 rounded-full cursor-pointer border-2 border-neutral-400'>
-                <ChevronLeft size={12} />
+                <ChevronLeft size={12} strokeWidth={3} />
             </div>
             <div className='flex justify-center bg-muted p-1 text-neutral-600 rounded-full cursor-pointer border-2 border-neutral-400'>
-                <ChevronRight size={12} />
+                <ChevronRight size={12} strokeWidth={3} />
             </div>
             <div className='flex justify-center bg-muted p-1 text-neutral-600 rounded-full cursor-pointer border-2 border-neutral-400'>
-                <Plus size={12} />
+                <Plus size={12} strokeWidth={3} />
             </div>
             <div className='flex justify-center bg-muted p-1 text-neutral-600 rounded-full cursor-pointer border-2 border-neutral-400'>
-                <RefreshCw size={12} />
+                <RefreshCw size={12} strokeWidth={3} />
             </div>
         </div>
         <div className='searchbar flex items-center border-2 border-neutral-400 rounded-full px-2 pr-12'>
@@ -26,7 +26,7 @@ const Navbar = () => {
       </div>
       <div className=''>
         <div className='flex justify-center bg-muted p-1 text-neutral-600 rounded-full cursor-pointer border-2 border-neutral-400'>
-            <Search size={12} />
+            <Search size={12} strokeWidth={3} />
         </div>
       </div>
     </div>
