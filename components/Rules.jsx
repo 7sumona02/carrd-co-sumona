@@ -22,7 +22,7 @@ const Rules = ({ isVisible }) => {
         <div className='text-xs text-neutral-600 flex gap-10 ml-4'>
             <div className='flex flex-col gap-1 box'>
                 <p className='font-semibold'>name <span className='font-medium ml-4'>sumona</span></p>
-                <p className='font-semibold'>age <span className='font-medium ml-4'>twenty two</span></p>
+                <p className='font-semibold'>dob <span className='font-medium ml-4'>26 jul</span></p>
                 <p className='font-semibold'>pronouns <span className='font-medium ml-4'>she/her</span></p>
                 <p className='font-semibold'>country <span className='font-medium ml-4'>india</span></p>
             </div>

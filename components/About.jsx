@@ -22,14 +22,14 @@ const Rules = ({ isVisible }) => {
         <div className='text-xs text-neutral-600 flex gap-10 ml-4'>
             <div className='flex flex-col gap-1 box'>
                 <p className='font-semibold'>name <span className='font-medium ml-4'>sumona</span></p>
-                <p className='font-semibold'>age <span className='font-medium ml-4'>twenty two</span></p>
+                <p className='font-semibold'>dob <span className='font-medium ml-4'>26 jul</span></p>
                 <p className='font-semibold'>pronouns <span className='font-medium ml-4'>she/her</span></p>
                 <p className='font-semibold'>country <span className='font-medium ml-4'>india</span></p>
             </div>
             <div className='flex flex-col gap-1 box'>
                 <p className='font-semibold'>mbti <span className='font-medium ml-4'>intj</span></p>
-                <p className='font-semibold'>links <Link href='/' className='font-medium ml-4 underline'>instagram</Link> <Link href='/' className='font-medium underline'>spotify</Link><br /> <Link href='/' className='font-medium underline'>pinterest</Link> <Link href='/' className='font-medium underline'>youtube</Link></p>
-                <p className='font-semibold'>credits <span className='font-medium ml-4'>lovjbini</span></p>
+                <p className='font-semibold'>zodiac <span className='font-medium ml-4'>scorpio asc,<br /> aquarius moon</span></p>
+                <p className='font-semibold'>links <Link href='/' className='font-medium ml-4 underline'>discord</Link> <Link href='/' className='font-medium underline'>instagram</Link><br /> <Link href='/' className='font-medium underline'>pinterest</Link> <Link href='/' className='font-medium underline'>youtube</Link></p>
             </div>
         </div>
     </div>
