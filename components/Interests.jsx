@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import Link from 'next/link';
 
-const Rules = ({ isVisible }) => {
+const Interests = ({ isVisible }) => {
   useEffect(() => {
     if (isVisible) {
       gsap.fromTo('.box', 
@@ -36,4 +36,4 @@ const Rules = ({ isVisible }) => {
   );
 };
 
-export default Rules;
+export default Interests;
