@@ -24,7 +24,7 @@ const Pagination = () => {
         <div className="absolute top-2">
           <Navbar />
         </div>
-        <div className="pt-10">
+        <div className="pt-12">
           <TabsContent value="about">
             <About isVisible={visibleTab === "about"} />
           </TabsContent>
