@@ -17,7 +17,7 @@ const Interests = ({ isVisible }) => {
   return (
     <div className='flex cursor-pointer'>
         <div className='flex flex-col  items-center px-2'>
-            <Image src='/pfp.jpg' alt='pfp' width={100} height={100} className='w-24 border-2 border-neutral-400 rounded-sm' />
+            <Image src='/pfp.jpg' alt='pfp' width={100} height={100} priority={true} className='w-24 border-2 border-neutral-400 rounded-sm' />
             <p className='text-neutral-600 text-[10px] font-semibold mt-[1.4px]'>@yoake</p>
         </div>
         <div className='text-xs text-neutral-600 flex gap-10 ml-4'>
