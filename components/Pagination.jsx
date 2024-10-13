@@ -20,7 +20,7 @@ const Pagination = () => {
         <TabsTrigger value="rules">Rules</TabsTrigger>
         <TabsTrigger value="interests">Interests</TabsTrigger>
       </TabsList>
-      <div className="bg-muted w-[32.8vw] h-[21.4vh] rounded-sm relative -mt-[0.5px]">
+      <div className="bg-muted w-[32.8vw] h-[21.4vh] rounded-sm relative">
         <div className="absolute top-2">
           <Navbar />
         </div>
